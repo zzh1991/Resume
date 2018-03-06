@@ -14,9 +14,9 @@
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
-    "deploy": "npm run clean & npm run build && gcloud app deploy -y",
+    "deploy": "npm run clean & npm run build",
     "export": "spectacle-renderer --delay 3000",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=development node server.js"
   },
   "author": "",
   "license": "MIT",

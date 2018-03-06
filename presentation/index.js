@@ -265,7 +265,7 @@ export default class Presentation extends React.Component {
           </Timeline>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondar" caps>Publications</Heading>
+          <Heading size={6} textColor="secondar" caps>Awards</Heading>
           <List>
             <ListItem textSize="28px">
               2016 Merit Student, Excellent graduate students
