@@ -25,4 +25,4 @@ npm run build
 ```
 ## Problem
 1. The bundle.js is very large, and it contains lots of libraries
-![bundle.js size](./bundle-size.PNG)
+![bundle.js size](./pictures/bundle-size.PNG)
