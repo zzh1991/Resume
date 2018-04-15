@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-After downloading the boilerplate, your first order of business is to open a terminal and run 
+After downloading the boilerplate, your first order of business is to open a terminal and run
 ```bash
 npm install
 ```
@@ -23,3 +23,6 @@ Building the dist version of the project is as easy as running
 ```bash
 npm run build
 ```
+## Problem
+1. The bundle.js is very large, and it contains lots of libraries
+![bundle.js size](./bundle-size.PNG)
