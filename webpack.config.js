@@ -3,6 +3,8 @@
 var path = require("path");
 var webpack = require("webpack");
 
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 module.exports = {
   devtool: "cheap-module-source-map",
   entry: [
@@ -18,7 +20,8 @@ module.exports = {
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new BundleAnalyzerPlugin()
   ],
   module: {
     loaders: [{

@@ -151,7 +151,7 @@ export default class Presentation extends React.Component {
               <CardContent content="Wireless Sensor Network and Control Research Group" />
               <CardContent content="2014.9 -- 2017.3" />
             </Card>
-            <Card title={<CardTitle first="Bacherlor" second="Zhejiang Sci-Tech University" />}
+            <Card title={<CardTitle first="Bachelor" second="Zhejiang Sci-Tech University" />}
               bordered={false} style={style.rightCard}
             >
               <CardContent content="Communication Engineering" />
@@ -178,7 +178,7 @@ export default class Presentation extends React.Component {
                     Utilize software defined radio equipment and Python to release the detection system
                   </Timeline.Item>
                   <Timeline.Item style={style.timelineItem}>
-                    Signal processing and data analysis of the received signal by Matlab and Python
+                    Signal processing and data analysis of the received signal by MATLAB and Python
                   </Timeline.Item>
                 </Timeline>
               </div>
@@ -198,7 +198,7 @@ export default class Presentation extends React.Component {
           </div>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondar" caps>Skills</Heading>
+          <Heading size={6} textColor="secondary" caps>Skills</Heading>
           <List>
             <ListItem textSize="32px">
               Familiar with Java, data structures and algorithms
@@ -232,27 +232,27 @@ export default class Presentation extends React.Component {
           </div>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondar" caps>Publications</Heading>
+          <Heading size={6} textColor="secondary" caps>Publications</Heading>
           <Timeline
             style= {style.timeline}
           >
             <Timeline.Item style={style.timelineItem}>
               <Link href="https://dl.acm.org/citation.cfm?id=2996537&dl=ACM&coll=DL&CFID=990886953&CFTOKEN=63538975" target="_blank" >
-                {`Zhihao Zhang, Chongrong Fang, Yuanchao Shu, Zhiguo Shi, Jiming Chen. Demo Abstract: FindIt: 
+                {`Zhihao Zhang, Chongrong Fang, Yuanchao Shu, Zhiguo Shi, Jiming Chen. Demo Abstract: FindIt:
                 Real-time Through-Wall Human Motion Detection Using Narrow Band SDR. SenSys 2016.`}
               </Link>
             </Timeline.Item>
             <Timeline.Item style={style.timelineItem}>
               <Text textSize="16px" textColor="tertiary">
-                {`Yang Zhou, Yuanchao Shu, Zhihao Zhang, Peng Cheng, Jiming Chen, 
-                Phonemeter: Bringing EMF Detection to Smartphones, 
-                IEEE Communications Society 2014 Student Competition 
+                {`Yang Zhou, Yuanchao Shu, Zhihao Zhang, Peng Cheng, Jiming Chen,
+                Phonemeter: Bringing EMF Detection to Smartphones,
+                IEEE Communications Society 2014 Student Competition
                 “Communications technology changing the world” Honorary certificate of appreciation`}
               </Text>
             </Timeline.Item>
             <Timeline.Item style={style.timelineItem}>
               <Link href="http://www.microwavejournal.com/articles/22406-a-wide-stopband-lowpass-filter-with-three-transmission-zeros?v=preview" target="_blank" >
-                {`Zhang Z H, Li L, Yang L L, et al. A Wide Stopband Lowpass Filter with Three Transmission Zeros[J]. 
+                {`Zhang Z H, Li L, Yang L L, et al. A Wide Stopband Lowpass Filter with Three Transmission Zeros[J].
                 Microwave Journal, 2014, 57(6).`}
               </Link>
             </Timeline.Item>
@@ -265,7 +265,7 @@ export default class Presentation extends React.Component {
           </Timeline>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondar" caps>Awards</Heading>
+          <Heading size={6} textColor="secondary" caps>Awards</Heading>
           <List>
             <ListItem textSize="28px">
               2016 Merit Student, Excellent graduate students
